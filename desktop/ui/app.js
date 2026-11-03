@@ -1752,7 +1752,7 @@ function toolsCard(list) {
       : [btn(`Download (${t.size})`, () => installTool(t), t.needed)];
     return h('li', {}, h('div', {}, h('b', {}, t.name), h('small', {}, t.why)), h('div', { class: 'tacts' }, state, ...acts));
   };
-  return h('section', { class: 'pcard tools' }, h('h2', {}, 'Programs Lamhaat uses'),
+  return h('section', { class: 'pcard progs' }, h('h2', {}, 'Programs Lamhaat uses'),
     h('p', { class: 'hint' }, 'All free. Lamhaat uses what is already on this PC and only downloads what is missing, when you click.'),
     h('ul', { class: 'tlist' }, list.map(row)),
     h('div', { class: 'row' }, h('button', { class: 'btn small', type: 'button', onclick: () => drawSettings().then(() => toast('Checked again.', 'good')) }, 'Check again')));

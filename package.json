@@ -1,6 +1,6 @@
 {
   "name": "lamhaat",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A photo library for Windows that publishes to your own free site",
   "scripts": {
     "start": "node desktop/server.js",
