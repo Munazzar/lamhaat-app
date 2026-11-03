@@ -1,0 +1,22 @@
+{
+  "name": "lamhaat",
+  "version": "1.0.0",
+  "description": "A photo library for Windows that publishes to your own free site",
+  "scripts": {
+    "start": "node desktop/server.js",
+    "package": "node scripts/package.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "private": "true",
+  "dependencies": {
+    "blurhash": "^2.0.5",
+    "exifr": "^7.1.3",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "wrangler": "^4.156.0"
+  }
+}
